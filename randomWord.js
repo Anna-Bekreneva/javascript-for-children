@@ -15,3 +15,17 @@ const randomWordsIndex = Math.floor(Math.random() * randomWords.length);
 const res = "У тебя " + randomBodyParts[randomBodyPartsIndex] + " словно " + randomAdjectives[randomAdjectivesIndex] + " " + randomWords[randomWordsIndex]
 console.log(res)
 
+let name = "Татьяна"
+if (name === "Анна") {
+    console.log("Привет мне!")
+} else if (name === "Александр") {
+    console.log("Привет папе!")
+} else if (name === "Татьяна") {
+    console.log("Привет маме!")
+} else {
+    console.log("Привет, незнакомец!")
+}
+
+
+
+
